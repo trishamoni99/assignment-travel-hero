@@ -1,0 +1,12 @@
+
+    @media screen and (max-width: 600px){
+       .banner-section{
+         padding: 100px;
+         background-position: center;
+         height: 100%;
+    
+        }
+      .text-container{
+          flex-direction: column;
+        }
+    }

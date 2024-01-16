@@ -1,3 +1,146 @@
-h3{
-    background-color: red;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+
 }
+
+
+   .banner-section{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0, 0.5) )    , url(./Images/banner.png);
+     width: 1200px;
+     height:500px;
+     border-radius: 16px;
+     margin: auto;
+     background-position: center;
+     background-size: cover;
+
+   }
+
+   .text-container{
+    /* border: 2px solid red; */
+    text-align: center;
+  
+   }
+   .banner-title{
+    /* border: 2px solid red; */
+    padding-top: 100px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+ 
+   }
+   .banner-description{
+    /* border: 2px solid red; */
+    padding-bottom:50px;
+    color: #FFF;
+     text-align: center;
+    font-size: 16px;
+     font-weight: 400;
+     padding-top:0;
+    
+
+   }
+   
+      .buttn{
+       
+       justify-content: space-between;
+         display: flex;   
+         padding: 20px;
+         margin-left: 150px;
+         margin-right: 150px;
+         border-radius: 8px;   
+         background: rgba(255, 255, 255, 0.30); 
+      }
+       
+
+     input{
+    border:0px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+   } 
+   select{
+    width: 174px;
+    height: 52px;
+     border-radius: 8px;
+     background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+
+   }
+   .btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 700;
+   border: 0; 
+  
+
+
+   }
+   .header-content{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    /* padding-bottom: 100px; */
+   } 
+   .header-title{
+   padding-bottom: 300px;
+   }
+   .img-item{
+    width: 540px;
+       height: 550px;
+      
+      border-radius: 16px;
+      background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0, 0.4) );
+      padding-bottom: 240px;
+
+
+   }
+   .header-name{
+    color: #131318;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+   
+
+   }
+   .header-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+   }
+   .list-item{
+    color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 150px;
+
+   }
+   .description{
+    color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+   padding-bottom: 100px;
+
+   }
+   
+   
